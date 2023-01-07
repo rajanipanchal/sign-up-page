@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Fira Sans Condensed', sans-serif;;
+}
+.content1{
+    width:100%;
+    background-image: radial-gradient(circle at center, #7dbafe , #dcc8fc);
+    height: 100vh;
+}
+.text {
+
+    background: linear-gradient(225deg, #95e9e2 0%, #DDCCFD 100%);
+  
+    padding: 30px;
+    width: 75%;
+    height: 66vh;
+    transform: translate(42px, 78px)
+}
+
+.text h1 {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 35px;
+background: linear-gradient(225deg, #95e9e2 0%, #DDCCFD 100%);
+    font-weight: 800;
+}
+.text h2{
+    font-size: 43px;
+    color: #1A1B52;
+}
+.text p{
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+/* bhb */
+.text1 {
+    width: 100%;
+    padding: 3em 4em;
+}
+
+.text1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.text1 p {
+    color: gray;
+}
+label.form-label {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #4e00ff;
+    letter-spacing: 0.2px;
+}
+label.form-check-label {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #4e00ff;
+    letter-spacing: 0.2px;
+}
+button.btn.btn-primary.btn-lg.btn-block {
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 3px;
+    background-image: linear-gradient(225deg, #e99595 0%, #6073FA 100%);
+}
+.line{
+    text-align: center;
+    margin-left: 15px;
+    width: 90%;
+    background-color:#808080;
+    height: 1px;
+}
+.or{
+    text-align: center;
+}
+button.btn.btn-transparent.btn-lg.btn-block {
+    text-align: center;
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+    color: #4e00ff;
+    border: 1px solid #0000003d;
+}
+@media(min-width:1024px){
+    .text {
+        background: linear-gradient(225deg, #95e9e2 0%, #DDCCFD 100%);
+    padding: 30px;
+    width: 75%;
+    height: 66vh;
+    transform: translate(57px, 78px)
+
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text h2{
+        font-size: 60px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+       
+    
+}
